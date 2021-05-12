@@ -8,8 +8,10 @@ import com.vaadin.flow.component.html.H1;
 import com.vaadin.flow.component.orderedlayout.HorizontalLayout;
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 import com.vaadin.flow.component.textfield.TextField;
+import org.vaadin.example.model.TaskRepository;
 
 public class TodoDesign extends VerticalLayout {
+
     protected VerticalLayout todoList = new VerticalLayout();
     protected TextField textField = new TextField();
     protected Button addButton = new Button("Add");
